@@ -24,7 +24,7 @@ html { box-sizing: border-box; }
     height: 400px;
     width: 250px;
     color: whitesmoke;
-    background: black;
+    background: #31363b;
     margin: 0,5rem;
     padding: 1rem;
     font-size: 16px; 
@@ -34,7 +34,7 @@ html { box-sizing: border-box; }
 .logo {background-color: #b92e81;
     border-radius: 180%;
 position: absolute;
-top: 160px;
+top: 150px;
 left: 200px;
 z-index: 1;}
 
@@ -43,14 +43,14 @@ z-index: 1;}
     padding: 1rem;
     border: 0,5px;
     border-color: #3f464d;
-    background:  black;}
+    background:  #31363b;}
 
 .facebook {display: inline-block;
     width: 125px;
     padding: 1rem;
      border: 0,5px;
      border-color: #3f464d;
-     background:  black}
+     background:  #31363b}
 
 .twitter {display: inline-block;
     width: 125px;
