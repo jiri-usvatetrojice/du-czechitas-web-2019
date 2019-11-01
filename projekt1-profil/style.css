@@ -12,6 +12,7 @@ html { box-sizing: border-box; }
  facebook   #3b5998
  twitter    #1da1f2
 */
+* {box-sizing: border-box;}
 
 .foto {width: 250px;
         margin-left: 1rem;
@@ -34,8 +35,9 @@ html { box-sizing: border-box; }
 .logo {background-color: #b92e81;
     border-radius: 180%;
 position: absolute;
-top: 160px;
-left: 200px;}
+top: 150px;
+left: 200px;
+z-index: 1;}
 
 .portfolio {display: block;
     width: 250px;
@@ -54,12 +56,12 @@ left: 200px;}
 .twitter {display: inline-block;
     width: 125px;
     padding: 1rem;
-    border: 0,5px;
+    border: 1px;
     border-color: #3f464d;
-    background: black}
+    background: #1da1f2}
 
-.portfolio a {color: white; font-family: 'Montserrat';}
-.facebook a {color: white; font-family: 'Montserrat';}
-.twitter a {color: white; font-family: 'Montserrat';}
+.portfolio a {padding: 3rem; color: white; font-family: 'Montserrat';}
+.facebook a {padding: 1.5rem; color: white; font-family: 'Montserrat';}
+.twitter a {padding: 1.5rem;color: white; font-family: 'Montserrat';}
 
 body {background-color: #bdc3c7;}
