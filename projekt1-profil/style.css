@@ -35,7 +35,8 @@ html { box-sizing: border-box; }
     border-radius: 180%;
 position: absolute;
 top: 160px;
-left: 200px;}
+left: 200px;
+z-index: 1;}
 
 .portfolio {display: block;
     width: 250px;
@@ -56,10 +57,10 @@ left: 200px;}
     padding: 1rem;
     border: 0,5px;
     border-color: #3f464d;
-    background: black}
+    background:  #1da1f2}
 
-.portfolio a {color: white; font-family: 'Montserrat';}
-.facebook a {color: white; font-family: 'Montserrat';}
-.twitter a {color: white; font-family: 'Montserrat';}
+.portfolio a {padding: 3.5rem; color: white; font-family: 'Montserrat';}
+.facebook a {padding: 1.3rem; color: white; font-family: 'Montserrat';}
+.twitter a {padding: 1.3rem; color: white; font-family: 'Montserrat';}
 
 body {background-color: #bdc3c7;}
