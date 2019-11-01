@@ -1,0 +1,30 @@
+h1{color: rgb(109, 216, 248);
+    font-size: 2rem;
+    font-style: initial;
+    font-weight: 400;
+    font-family: Verdana;}
+body{background-color: black}
+.main-article {color: whitesmoke;
+    font-size: small;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;}
+
+ul{color: rgb(109, 216, 248);
+    font-style: initial;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+a{color: rgb(109, 216, 248)}
+.autor {color: turquoise;}
+.student {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.motto {color: rgb(231, 131, 48);
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;}   
+
+li a:link { color:rgb(178, 163, 231)}
+li a:visited { color:rgb(184, 221, 233)}
+li a:hover {text-decoration: none;}
+
+    
