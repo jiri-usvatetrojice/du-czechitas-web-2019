@@ -1,0 +1,131 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ sede pozadi      #e5e5e5
+ svetle fialova   #48418e
+ tmave fialova    #25133d
+
+ POUZITE PISMO
+ Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+ https://fonts.google.com/specimen/Roboto
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.obal {
+    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    
+    margin: 0 auto; /* pruh je na stránce vycentrovaný */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ----- zde začni psát vlastní CSS ----- */
+.zahlavi-navigace {
+    background-color: white;
+    margin: 0 auto;
+}
+.zahlavi-navigace >div {
+    display: inline-block;
+    padding: 5px;
+}
+.zahlavi-navigace a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1rem 2.5rem;
+    background: white;
+}
+.zahlavi-navigace a:hover{
+    font-weight: 800;
+    background-color:  white;
+}
+.main{
+    position: absolute;
+}
+.pozadi {
+    position: relative;
+    width: 960px;
+    height: 450px;
+}
+.telefon {
+    position: relative;
+    bottom: 408px;
+    left: 555px;
+    z-index: 1;
+}
+.banner-nazev {
+    position: relative;
+    bottom: 820px;
+    left: 65px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 82px;
+    color: white;    
+}
+.banner-popis {
+    position: relative;
+    bottom: 960px;
+    left: 65px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 230;
+    font-size: 32px;
+    color: white; 
+}
+.stahnout a {
+    display: inline-block;
+    position: relative;
+    bottom: 650px;
+    left: 65px;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 20px;
+    background:#48418e;
+}
+.stahnout a:hover {
+    background: #25133d;
+}
+.vice a {
+    display: inline-block;
+    position: relative;
+    bottom: 713px;
+    left: 300px;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 20px;
+    background: transparent;
+}
+.moznosti >div{
+    display: inline-block;
+    width: 317px;
+    background: white;
+    align-items: stretch;
+    text-align: center;
+    padding: 1px 30px 100px 30px;
+    }
+.h1 {font-size: 10px;}
+.footer-text { 
+    text-align: center; 
+    border: solid 1px #48418e;
+    margin: 0 auto;
+    width: 960px;
+    color:white;
+    background:#48418e;
+}
